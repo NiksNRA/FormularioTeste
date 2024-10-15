@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="gabe">
+    <div class="form-container">
+        <h1 class="titulo">Formulário CS:2</h1>
+        <p class="titulo"><em>Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</em></p>
+
+        <form action="#" method="get">
+            <p>
+                <label for="Nome">Nome:</label><br>
+                <input type="text" name="Nome" id="Nome">
+            </p>
+
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" id="email">
+            </p>
+
+            <p>
+                <label for="idade">Idade:</label><br>
+                <input type="number" name="idade" id="idade" max="100" min="1">
+            </p>
+
+            <p>
+                <label for="opccaixa">Qual opção melhor descreve sua gameplay?</label><br>
+                <select name="cargo_atual" id="opccaixa">
+                    <option value="EntryFrager">Entry Frager</option>
+                    <option value="Rifler">Rifler</option>
+                    <option value="Lucker">Lucker</option>
+                    <option value="Gamer">Suporte</option>
+                    <option value="AWP">Awper</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="ancora">Você seria âncora do time?</label><br>
+                <input type="checkbox" name="sim" id="sim">
+                <label for="sim" class="checkbox">Sim</label>
+                <input type="checkbox" name="nao" id="nao">
+                <label for="nao" class="checkbox">Não</label>
+                <input type="checkbox" name="nao_sei" id="nao_sei">
+                <label for="nao_sei" class="checkbox">Não sei</label>
+            </p>
+
+            <p>
+                <label for="habilidade">Qual sua posição?</label><br>
+                <select name="habilidade" id="habilidade">
+                    <option value="BombSite A">BombSite A</option>
+                    <option value="BombSite B">BombSite B</option>
+                    <option value="Meio">Meio</option>
+                    <option value="Outra">Outra</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="melhorar">O que você gostaria de melhorar?</label><br>
+                <input type="checkbox" name="posicionamento" id="posicionamento">
+                <label for="posicionamento">Posicionamento de mira</label><br>
+                <input type="checkbox" name="movimentacao" id="movimentacao">
+                <label for="movimentacao">Movimentação</label><br>
+                <input type="checkbox" name="estrategia" id="estrategia">
+                <label for="estrategia">Estratégias de jogo</label><br>
+                <input type="checkbox" name="utilitarios" id="utilitarios">
+                <label for="utilitarios">Uso de utilitários (granadas, smokes)</label><br>
+                <input type="checkbox" name="comunicacao" id="comunicacao">
+                <label for="comunicacao">Comunicação em equipe</label><br>
+                <input type="checkbox" name="mapas" id="mapas">
+                <label for="mapas">Conhecimento de mapas</label>
+            </p>
+
+            <p>
+                <label for="comment">Conte mais sobre você:</label><br>
+                <textarea id="comment" name="comment" rows="5" cols="70" placeholder="Digite seu comentário aqui..."></textarea>
+            </p>
+
+            <button type="submit" class="enviar">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
